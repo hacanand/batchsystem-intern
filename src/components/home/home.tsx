@@ -5,6 +5,7 @@ import Hero from '../hero'
 import Premium from '../premium'
 import ChooseUifry from '../choose-uifry'
 import Customizable from '../customizable'
+import Testimonial from '../testimonial'
 
 type Props = {}
 
@@ -15,7 +16,8 @@ const Home = (props: Props) => {
       <Hero />
       <Premium />
       <ChooseUifry />
-      <Customizable/>
+      <Customizable />
+      <Testimonial/>
     </div>
   )
 }

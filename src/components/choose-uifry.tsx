@@ -77,7 +77,7 @@ function ChooseUifry() {
               width={500}
               height={500}
               alt="ribbon"
-              className="w-full max-h-[900px] rotate-[14deg]"
+              className="w-full max-h-[900px] rotate-[15deg]"
             />
           </div>
         </aside>
