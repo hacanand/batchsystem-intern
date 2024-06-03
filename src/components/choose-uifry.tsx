@@ -61,7 +61,7 @@ function ChooseUifry() {
           </header>
         </article>
         <aside className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full relative">
-          <div className="bg-grad2 absolute top-10 h-full left-10  w-96 -z-10" />
+          <div className="bg-grad3 absolute top-28 h-full left-10  w-full -z-10" />
           <div className="absolute  -z-10">
             <Image
               src={Ellipse}

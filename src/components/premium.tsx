@@ -2,13 +2,20 @@ import * as React from "react";
 import Image from "next/image";
 import mobile4 from "@/assets/iPhone-13-Pro-Front (4).png";
 import Ellipse from "@/assets/Ellipse.png";
-
+import Star from "@/assets/Star.png";
 function Premium() {
   return (
     <div>
-      <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+      <div className="flex gap-5 max-md:flex-col max-md:gap-0 relative">
+        <Image
+          src={Star}
+          width={70}
+          height={40}
+          alt="Star icon"
+          className="w-10 h-10 top-16 left-16 absolute"
+        />
         <div className="flex flex-col   items-center w-6/12 max-md:ml-0 max-md:w-full relative">
-          <div className="bg-grad2 absolute top-10 h-full left-10  w-96 -z-10" />
+          <div className="bg-grad3 absolute top-10 h-full left-10  w-full -z-10" />
           <div className="absolute  -z-10">
             <Image
               src={Ellipse}
@@ -29,7 +36,7 @@ function Premium() {
           </div>
         </div>
         <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full font-clashDisplay relative">
-          <div className="flex flex-col self-stretch px-5 my-auto text-lg font-medium leading-7 text-black capitalize max-md:mt-10 max-md:max-w-full">
+          <div className="flex flex-col self-stretch px-5 my-auto text-lg font-medium leading-7 text-black capitalize max-md:mt-10 max-md:max-w-full overflow-hidden">
             <div className="text-rose-500 uppercase tracking-[2.88px] max-md:max-w-full">
               features
             </div>
@@ -73,7 +80,7 @@ function Premium() {
               faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
             </div>
           </div>
-          <div className="bg-grad2 absolute top-48 h-full right-0  w-96 -z-10" />
+          <div className="bg-grad2 absolute top-48 -right-0 h-full   w-96 -z-10" />
         </div>
       </div>
     </div>
