@@ -6,6 +6,9 @@ import Premium from '../premium'
 import ChooseUifry from '../choose-uifry'
 import Customizable from '../customizable'
 import Testimonial from '../testimonial'
+import FAQ from '../faq'
+import GetStart from '../get-start'
+import Footer from '../footer'
 
 type Props = {}
 
@@ -17,7 +20,10 @@ const Home = (props: Props) => {
       <Premium />
       <ChooseUifry />
       <Customizable />
-      <Testimonial/>
+      <Testimonial />
+      <FAQ />
+      <GetStart />
+      <Footer/>
     </div>
   )
 }

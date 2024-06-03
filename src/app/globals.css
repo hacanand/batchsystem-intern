@@ -17,7 +17,10 @@ background-image: radial-gradient(closest-side at 160px 80px,  rgba(240, 10, 10,
 .bg-grad2{
 background-image: radial-gradient(closest-side at 200px 100px,  rgba(240, 10, 10, 0.869)  ,white);
 } 
+
 .bg-grad3{
 background-image: radial-gradient(closest-side at 300px 200px,  rgba(240, 10, 10, 0.869)  ,white);
 } 
-
+.bg-grad4{
+background-image: radial-gradient(closest-side at 300px 200px,  rgba(240, 10, 10, 0.869)  ,black);
+} 
