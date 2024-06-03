@@ -4,6 +4,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import { IoPlayCircleOutline } from "react-icons/io5";
 import Image from "next/image";
 import Ribbon from '@/assets/ribbon.png'
+import Star from '@/assets/Star.png'
 import mobile1 from'@/assets/iPhone-13-Pro-Front.png'
 import mobile2 from'@/assets/iPhone-13-Pro-Front (1).png'
 import mobile3 from'@/assets/iPhone-13-Pro-Front (2).png'
@@ -75,24 +76,30 @@ const Hero: React.FC = () => {
             height={500}
             alt="mobile"
             className="absolute right-0 top-10"
-
           />
           <Image
-          src={mobile2}
+            src={mobile2}
             width={500}
             height={600}
             alt="mobile"
             className="absolute right-2"
           />
           <Image
-          src={mobile3}
+            src={mobile3}
             width={500}
             height={600}
             alt="mobile"
             className="absolute right-20 -top-10 "
           />
         </div>
-        <div className="bg-grad"> </div>
+        <div className="bg-grad2 absolute top-80 left-20 h-full  w-96 -z-10" />
+        <Image
+          src={Star}
+          width={500}
+          height={500}
+          alt="ribbon"
+          className="w-8 h-8 top-80 left-16 absolute"
+        />
       </div>
     </section>
   );
