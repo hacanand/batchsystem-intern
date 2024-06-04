@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
   );
 
   return (
-    <header className="flex gap-5 max-md:flex-wrap pt-6 px-32 font-clashDisplay ">
+    <header className="flex gap-5 max-md:flex-wrap pt-6 xl:mx-32 md:mx-8 justify-between  font-clashDisplay ">
       <div className="flex gap-0.5 px-5 my-auto text-xs   text-black whitespace-nowrap">
         <Image
           loading="lazy"
@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
         <span className="my-auto">TM</span>
       </div>
       <nav className="flex justify-between flex-auto  gap-5 capitalize max-md:flex-wrap max-md:max-w-full">
-        <div className="flex gap-5 justify-center px-5 my-auto text-xl leading-7  text-black">
+        <div className="flex gap-5 max-md:hidden justify-center px-5 my-auto text-xl leading-7  text-black">
           <MenuItem
             label="home"
             highlight

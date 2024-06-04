@@ -105,8 +105,8 @@ const Footer: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-col text-base font-medium leading-7 px-32 mt-32 font-clashDisplay">
-      <header className="flex gap-5 justify-between items-start px-5 w-full max-md:flex-wrap max-md:max-w-full">
+    <div className="flex flex-col text-base font-medium leading-7 xl:px-32 mt-32 font-clashDisplay ">
+      <header className="flex gap-5 justify-between items-start px-5 w-full max-xl:flex-wrap max-md:max-w-full">
         <ContactInfo />
         <LinkSection title="links" links={links1} />
         <LinkSection title="legal" links={links2} />

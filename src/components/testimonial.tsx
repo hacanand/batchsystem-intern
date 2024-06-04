@@ -15,7 +15,7 @@ const Tmonial: React.FC<TmonialProps> = ({
   altText,
   userName,
 }) => (
-    <article className="flex md:ml-5 w-full h-full justify-center items-center relative">
+    <article className="flex max-xl:flex-col md:ml-5 w-full h-full justify-center items-center relative">
          <div className="bg-grad3 absolute top-48  h-full left-20  w-6/12 -z-10" />
     <img
       src={imageSrc}

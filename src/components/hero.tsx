@@ -16,7 +16,7 @@ type ImageProps = {
 };
 const Hero: React.FC = () => {
   return (
-    <section className="flex gap-5 w-full justify-between max-md:flex-wrap max-md:max-w-full font-clashDisplay">
+    <section className="flex gap-5 w-full max-xl:flex-col justify-between max-md:flex-wrap max-md:max-w-full font-clashDisplay">
       <div className="shrink-0  self-start mt-3.5 aspect-square px-4">
         <Image
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/67839f78e32ac5538f59649205da1a4186dbd7c51d1752ee3b369ff24563c188?apiKey=2b10f3d4f07b463b82ae2fcf31a50eea&"
@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
         />
       </div>
 
-      <div className="w-1/2 px-16 py-8">
+      <div className="xl:w-1/2 w-full px-16 py-8">
         <div className="bg-grad2  absolute  h-full   top-20  self-center w-96 -z-10" />
         <div className=" capitalize text-5xl font-bold ">
           make the best financial decisions
