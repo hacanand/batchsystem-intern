@@ -63,10 +63,10 @@ const NewsletterForm: React.FC = () => (
   <form className="flex flex-col mt-2.5">
     <h2 className="text-3xl leading-10 text-black capitalize">Newsletter</h2>
     <p className="mt-9 text-black capitalize">Stay up to date</p>
-    <label htmlFor="emailInput" className="sr-only px-2">
+    <label htmlFor="emailInput" className="sr-only px-2 ">
       Your email
     </label>
-    <div className="flex md:gap-5 justify-between mt-8 max-md:pr-5">
+    <div className="flex md:gap-5 justify-between mt-8 border max-md:pr-5">
       <input
         id="emailInput"
         type="email"
