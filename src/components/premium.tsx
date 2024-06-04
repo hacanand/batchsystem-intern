@@ -15,7 +15,7 @@ function Premium() {
           className="w-10 h-10 top-16 left-16 absolute"
         />
         <div className="flex flex-col   items-center w-6/12 max-md:ml-0 max-md:w-full relative">
-          <div className="bg-grad3 absolute top-10 h-full left-10  w-full -z-10" />
+          <div className="bg-grad3 absolute top-10 h-full left-10  md:w-full max-md:w-96 -z-10" />
           <div className="absolute  -z-10">
             <Image
               src={Ellipse}

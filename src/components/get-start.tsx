@@ -8,12 +8,12 @@ type Props = {}
 
 const GetStart = (props: Props) => {
     return (
-      <>
-        <section className="font-clashDisplay flex text-white max-md:w-full  md:mx-32 max-md:mx-2 bg-black rounded mt-32 relative">
+       
+        <section className="font-clashDisplay flex text-white max-md:w-full  md:mx-32  bg-black rounded mt-32 relative">
           <div className="bg-grad2 absolute -top-20 h-full -z-10 -left-36 w-full " />
           <div className="flex gap-5 max-md:flex-col max-md:gap-0 justify-center items-center   ">
             <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full font-clashDisplay  ">
-              <h1 className=" capitalize font-bold text-4xl text-nowrap">
+              <h1 className=" capitalize font-bold text-4xl md:text-nowrap">
                 ready to get started?
               </h1>
               <h2>
@@ -93,7 +93,7 @@ const GetStart = (props: Props) => {
             </svg>
           </div>
         </section>
-      </>
+       
     );
 }
 

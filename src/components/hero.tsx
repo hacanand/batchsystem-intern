@@ -65,14 +65,14 @@ const Hero: React.FC = () => {
           />
         </div>
       </div>
-      <div className="w-1/2 relative ">
+      <div className="xl:w-1/2 relative ">
         <div className=" ">
           <Image
             src={mobile1}
             width={400}
             height={500}
             alt="mobile"
-            className="absolute right-0 top-10"
+            className="absolute right-0 xl:top-10"
           />
           <Image
             src={mobile2}
@@ -86,7 +86,7 @@ const Hero: React.FC = () => {
             width={500}
             height={600}
             alt="mobile"
-            className="absolute right-20 -top-10 "
+            className="xl:absolute right-20 xl:-top-10 "
           />
         </div>
         <div className="bg-grad3 absolute top-60 left-0 h-full  w-full -z-10" />

@@ -38,8 +38,8 @@ const advantagesData = [
 function ChooseUifry() {
   return (
     <section>
-      <div className="flex gap-5 max-md:flex-col max-md:gap-0 px-32">
-        <article className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full font-clashDisplay">
+      <div className="flex gap-5 max-md:flex-col max-md:gap-0 md:px-32">
+        <article className="flex flex-col md:w-6/12 max-md:ml-0 max-md:w-full font-clashDisplay">
           <header className="flex flex-col self-stretch px-5 my-auto text-lg font-medium leading-5 text-black capitalize max-md:mt-10 max-md:max-w-full">
             <h1 className="text-rose-500 uppercase leading-[156%] tracking-[2.88px] max-md:max-w-full">
               advantages
@@ -60,8 +60,8 @@ function ChooseUifry() {
             </p>
           </header>
         </article>
-        <aside className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full relative">
-          <div className="bg-grad3 absolute top-28 h-full left-10  w-full -z-10" />
+        <aside className="flex flex-col ml-5 md:w-6/12 max-md:ml-0 max-md:w-full relative">
+          <div className="bg-grad3 absolute top-28 h-full left-10  md:w-full -z-10" />
           <div className="absolute  -z-10">
             <Image
               src={Ellipse}
@@ -77,7 +77,7 @@ function ChooseUifry() {
               width={500}
               height={500}
               alt="ribbon"
-              className="w-full max-h-[900px] rotate-[15deg]"
+              className="md:w-full md:max-h-[900px] max-sm:hidden rotate-[15deg]"
             />
           </div>
         </aside>

@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
         />
         <span className="my-auto">TM</span>
       </div>
-      <nav className="flex justify-between flex-auto  gap-5 capitalize max-md:flex-wrap max-md:max-w-full">
+      <nav className="flex justify-between md:flex-auto  gap-5 capitalize max-md:flex-wrap max-md:max-w-full relative">
         <div className="flex gap-5 max-md:hidden justify-center px-5 my-auto text-xl leading-7  text-black">
           <MenuItem
             label="home"
