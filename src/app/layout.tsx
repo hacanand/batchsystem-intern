@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
+ 
 import "./globals.css";
 const clashDisplay = localFont({
   src: "../assets/fonts/ClashDisplay-Variable.ttf",
@@ -21,7 +22,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${clashDisplay.variable}`}>{children}</body>
+      <body className={`${clashDisplay.variable}`}>
+        
+          {children}
+         
+      </body>
     </html>
   );
 }
