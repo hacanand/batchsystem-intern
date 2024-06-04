@@ -68,7 +68,7 @@ const Navbar: React.FC = () => {
           <GiHamburgerMenu />
           </button>
           {isDropdownOpen && (
-            <div className="absolute top-16 right-0 transition-all w-full flex flex-col self-center font-medium bg-white p-5 shadow-lg">
+            <div className="absolute top-16 right-0 transition-all  flex flex-col    self-center font-medium bg-white p-5  shadow-lg">
               <MenuItem
                 
                 label="home"
