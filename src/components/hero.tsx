@@ -16,8 +16,8 @@ type ImageProps = {
 };
 const Hero: React.FC = () => {
   return (
-    <section className="flex gap-5 w-full max-xl:flex-col justify-between max-md:flex-wrap max-md:max-w-full font-clashDisplay">
-      <div className="shrink-0  self-start mt-3.5 aspect-square px-4">
+    <section className="flex xl:gap-5 w-full max-xl:flex-col justify-between max-md:flex-wrap max-md:max-w-full font-clashDisplay">
+      <div className="shrink-0  self-start md:mt-3.5 aspect-square px-4">
         <Image
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/67839f78e32ac5538f59649205da1a4186dbd7c51d1752ee3b369ff24563c188?apiKey=2b10f3d4f07b463b82ae2fcf31a50eea&"
           width={500}
@@ -27,12 +27,12 @@ const Hero: React.FC = () => {
         />
       </div>
 
-      <div className="xl:w-1/2 w-full px-16 py-8">
+      <div className="xl:w-1/2 w-full px-16 xl:py-8">
         <div className="bg-grad2  absolute  h-full   top-20  self-center w-96 -z-10" />
-        <div className=" capitalize text-5xl font-bold ">
+        <div className=" capitalize md:text-5xl text-3xl font-bold ">
           make the best financial decisions
         </div>
-        <div className="font-medium text-neutral-500 py-auto ">
+        <div className="font-medium text-neutral-500  xl:py-auto ">
           Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
           faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
         </div>
@@ -86,7 +86,7 @@ const Hero: React.FC = () => {
             width={500}
             height={600}
             alt="mobile"
-            className="xl:absolute right-20 xl:-top-10 "
+            className="xl:absolute xl:right-20 xl:-top-10 "
           />
         </div>
         <div className="bg-grad3 absolute top-60 left-0 h-full  w-full -z-10" />
