@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
       </div>
 
       <div className="xl:w-1/2 w-full px-16 xl:py-8">
-        <div className="bg-grad2  absolute  h-full   top-20  self-center w-96 -z-10" />
+        <div className="bg-grad2  absolute  h-full   top-20  self-center w-80   -z-10" />
         <div className=" capitalize md:text-5xl text-3xl font-bold ">
           make the best financial decisions
         </div>

@@ -52,7 +52,7 @@ const GetStart = (props: Props) => {
               />
             </div>
           </div>
-          <div className="absolute bottom-0  -left-20">
+          <div className="absolute bottom-0  -left-20 max-sm:hidden">
             <svg height="210" width="600" xmlns="http://www.w3.org/2000/svg">
               <ellipse
                 cx="240"

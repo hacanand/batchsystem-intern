@@ -66,7 +66,7 @@ const NewsletterForm: React.FC = () => (
     <label htmlFor="emailInput" className="sr-only px-2">
       Your email
     </label>
-    <div className="flex gap-5 justify-between mt-8 max-md:pr-5">
+    <div className="flex md:gap-5 justify-between mt-8 max-md:pr-5">
       <input
         id="emailInput"
         type="email"
